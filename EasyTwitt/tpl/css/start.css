@@ -1,0 +1,119 @@
+.BackgroundImage img {
+    z-index: -1;
+    position: fixed;
+    top:0;
+    right:0;
+    z-index: -1;
+}
+
+.bg-1 { 
+      background-color: #ffffff; /* Green */
+      color: #000000;
+  }
+  
+  .bg-2 { 
+      background-color: #000000; /* Green */
+      color: #ffffff;
+  }
+  
+  .bg-grey {
+      background-color: #dae6e4; /* Green */
+      color: #000000;
+  }
+
+  .bg-blue {
+    background-color: rgb(192, 222, 237);
+    color: #ffffff;
+  }
+  
+  .full-page{
+      min-height: 100vh;
+      display: block;
+  }
+  
+ body {
+   font-family: "Helvetica Neue";
+}
+
+.white, .white a {
+  color: #fff;
+}
+
+.ext-box {
+    display: table;
+    width: 100%;
+}
+
+.int-box {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.transparent-nav {
+  background: transparent;
+}
+
+.white-text {
+  color: white;
+}
+
+.div-center {
+  width:40%;
+}
+
+.img-cover {
+  width: 100%;
+  height: 100%;
+}
+
+.rounded-button {
+  border-radius: 10px;
+}
+
+.twitter-blue {
+  color: RGB(0, 172, 237) !important;
+}
+
+.spacing {
+  margin-top: 100px !important;
+}
+
+.img-bg {
+  background-image: url(tpl/Media/wall2.jpg) !important;
+}
+
+.img-bg-1 {
+  background-image: url(tpl/Media/wall1.png) !important;
+}
+
+.img-bg-2 {
+  background-image: url(tpl/Media/wall5.jpg) !important;
+}
+
+.item-spacing {
+  margin-top: 10px !important;
+}
+
+.black {
+  color: black !important;
+}
+
+.btn-circle {
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  font-size: 24px;
+  line-height: 1.33;
+  border-radius: 35px;
+}
+
+.back-to-top {
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display:none;
+}
+.fa-heart:hover {
+  color: #ff3333;
+}
